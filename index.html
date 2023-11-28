@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sreekanth Buddhiraju Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-6s5/mK6e5PON07LrH1CzJcUA6lXEXeoIl2Fbz4zI+1/i5ZpfL+QkF+MJs4+GYYPP" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c6ae28cfd0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/sb-high-resolution-logo-white-transparent.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Specialization</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-xmark"></i>
+            </ul>
+            <i class="fas fa-bars"></i>
+        </nav>
+        <div class="header-text">
+            <p>Structural Engineer</p>
+            <h1>Hi, I'm <span>Sreekanth</span><br> Buddhiraju working as a Bridge Design Engineer</h1>
+        </div>
+    </div>
+</div>
+<!-- about -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Sreekanth-Buddhiraju-image.jpg" alt="Sreekanth Buddhiraju">
+            </div>
+            <div class="about-col-2">
+                <h1>About Me</h1>
+                <p> Civil engineer with more than 5+ years of experience in structural engineering, project management and construction planning. 
+                    I am always eager to find a better solution method and learn new technologies, tools and language skills when required. 
+                    At present I am working as a Bridge design Engineer in Germany.</p>
+             <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                <p class="tab-links" onclick="opentab('education', event)">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>Structural Engineer</span><br>Bridge Design, Multistorey Buildings, Steel Frame Halls, Pre- and Post-tension, Precast Structures</li>
+                <li><span>Reinforcement Detail</span><br>Reinforcement Detail Drawings using CAD, Reinforcement Material Estimation</li>
+            </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2024 - Current</span><br>Project Engineer at Obermeyer Gmbh</li>
+                <li><span>2022 - 2023</span><br>Structural Engineer at OK Ingenieur Gmbh & Co.</li>
+                <li><span>2014 - 2018</span><br>Structural Engineer in India</li>
+            </ul>
+            </div>
+            <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2009-2014</span><br>BE+ME in Civil Engineering at Andhra University(A), India</li>
+                <li><span>2018-2021</span><br>MSc in Natural Hazards and Risk in Structural Engineering at Bauhaus University, Germany</li>
+            </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------services---------------> 
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Specialization</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-bridge"></i>
+                <h2>Static Design</h2>
+                <p>I have expertise in Static design verification using EC, ASCI and IS-codes for Permanent and Frequent load cases. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-bridge fa-shake"></i>
+                <h2>Dynamic Design</h2>
+                <p>I have expertise in Dynamic design verification using EC, ASCI (FEMA) and IS-codes for Dynamic loads like Earthquake- or Wind Induced vibrations. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-bridge-water"></i>
+                <h2>Fluid Structure Interaction</h2>
+                <p>The study emphasises on real time structure behaviour using water as liquid damper reducing structure vibrations. Fluid damper design is made based on this phenomenon. </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------portfolio----------------------> 
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class= "work-list">
+            <div class="work">
+                <img src="images/32892083-copy-of-partnach2-38e0wVU5JyPH.jpg">
+                <div class ="layer">
+                    <h3>Pedestrian bridge</h3>
+                    <p>Light weight steel truss design is made for the easy transpotation through helicopter during construction stages.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Screenshot (1).png">
+                <div class ="layer">
+                    <h3>Eigen Modes Extraction</h3>
+                    <p>Eigen frequency modes is extracted to determine the resonating frequency mode of the structure due to Earthquake- or Wind induced vibrations.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/animation.0040.png">
+                <div class ="layer">
+                    <h3>Wind flow</h3>
+                    <p>Wind flow through structure is determined using VOF numerical approach.</p>
+                </div>
+            </div>
+        </div>
+         <a href="#" class="btn">See more</a> 
+    </div>
+</div>
+<!----------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> buddhiraju.sreekanth@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +49-17681282329</p>
+                <div class="social-icon">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/123456789" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <a href="images/Sreekanth-Buddhiraju-Projektliste.pdf" download class="btn btn2">Download Projects</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"> Hello!! </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+    <p>Copyright © Sreekanth Buddhiraju. Düsseldorf, Germany </p>
+    </div>
+</div>
+
+<script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname, event) {
+    for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add('active-tab');
+}
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby5Zdyjn7oE0AJaP4GFbOYAIU41LnOo2hT6DmJJ0Zjy4b_gzL9q-PGs7zEGpdTDq_lF/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
