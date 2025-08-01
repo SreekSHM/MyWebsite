@@ -73,7 +73,7 @@ nav ul li a:hover::after {
     font-size: 60px;
 }
 .header-text h1 span{
-    color: #4dffc8;
+    color: #ff004f;
 }
 /*-----------about---------------*/
 #about {
@@ -336,10 +336,41 @@ form btn2{
 nav .fas {
     display: none;
 }
-#msg{
-    color: #61b752;
-    margin-top: -40px;
-    display: block;
+
+  #msg {
+    display: none;
+    color: green; /* Optional styling */
+    margin-top: 10px;
+  }
+
+/* Language Switcher */
+.language-switcher {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    display: flex;
+}
+
+.lang-btn {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.lang-btn:hover {
+    background: #fff;
+    color: #081b29;
+}
+
+.active-lang {
+    background: #fff;
+    color: #081b29;
+    font-weight: bold;
 }
 /*
 @media only screen and (max-width: 600px) {
